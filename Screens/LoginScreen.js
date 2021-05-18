@@ -40,6 +40,7 @@ const LoginScreen = ({ navigation }) => {
 					style={styles.inputfields}
 					keyboardType="email-address"
 					autoCompleteType="email"
+					autoCapitalize="none"
 					placeholder="Email"
 					type="email"
 					textContentType="emailAddress"
@@ -78,7 +79,9 @@ const styles = StyleSheet.create({
 	maintext: {
 		color: '#fff',
 		fontWeight: '700',
-		fontSize: 35
+		fontSize: 35,
+		textAlign: 'center',
+		marginBottom: 25
 	},
 	container: {
 		flex: 1,

@@ -55,6 +55,7 @@ const RegisterScreen = ({ navigation }) => {
 					keyboardType="email-address"
 					autoCompleteType="email"
 					placeholder="Email"
+					autoCapitalize="none"
 					textContentType="emailAddress"
 					value={email}
 					onChangeText={(email) => setEmail(email)}

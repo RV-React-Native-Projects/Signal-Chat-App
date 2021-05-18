@@ -27,6 +27,8 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "Signal Chat App. completed and Done using EXPO",
+    "githubUrl": "https://github.com/RV-React-Native-Projects/Signal-Chat-App"
   }
 }
